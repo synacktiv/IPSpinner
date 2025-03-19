@@ -188,8 +188,8 @@ go version go1.21.1 linux/amd64
 ## 2) Clone and build IPSpinner
 
 ```bash
-$ git clone ssh://git@zad.s1n:5522/ipspinner/ipspinner.git
-$ cd ipspinner
+$ git clone https://github.com/synacktiv/IPSpinner.git
+$ cd IPSpinner
 $ go mod tidy
 
 $ make build-linux # For Linux AMD64 arch
